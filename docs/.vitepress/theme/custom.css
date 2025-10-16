@@ -1,0 +1,376 @@
+/**
+ * 自定义主题样式 - 蓝色调
+ * 主题色: #007BFF
+ */
+
+:root {
+  /* 主色调 - 蓝色系 */
+  --vp-c-brand-1: #007bff;
+  --vp-c-brand-2: #0069d9;
+  --vp-c-brand-3: #0056b3;
+  --vp-c-brand-soft: rgba(0, 123, 255, 0.14);
+
+  /* 辅助色 */
+  --vp-c-bg: #ffffff;
+  --vp-c-bg-soft: #f6f8fa;
+  --vp-c-bg-mute: #f1f3f5;
+
+  /* 文字颜色 */
+  --vp-c-text-1: #2c3e50;
+  --vp-c-text-2: #476582;
+  --vp-c-text-3: #90a4b7;
+
+  /* 边框 */
+  --vp-c-divider: #e2e8f0;
+
+  /* 按钮 */
+  --vp-button-brand-bg: #007bff;
+  --vp-button-brand-hover-bg: #0069d9;
+  --vp-button-brand-active-bg: #0056b3;
+}
+
+/* 暗色模式 */
+.dark {
+  --vp-c-brand-1: #3b9dff;
+  --vp-c-brand-2: #007bff;
+  --vp-c-brand-3: #0056b3;
+  --vp-c-brand-soft: rgba(59, 157, 255, 0.16);
+
+  --vp-c-bg: #1a1a1a;
+  --vp-c-bg-soft: #242424;
+  --vp-c-bg-mute: #2e2e2e;
+
+  /* 暗色模式下的文字颜色 - 更亮 */
+  --vp-c-text-1: #e8eaed;
+  --vp-c-text-2: #c4c9cc;
+  --vp-c-text-3: #8b9299;
+
+  /* 暗色模式下的边框 */
+  --vp-c-divider: #3a3a3a;
+
+  /* 暗色模式下的按钮 */
+  --vp-button-brand-bg: #3b9dff;
+  --vp-button-brand-hover-bg: #5aafff;
+  --vp-button-brand-active-bg: #007bff;
+}
+
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+  display: block;
+}
+
+.VPHero .VPImage {
+  filter: drop-shadow(-2px 4px 6px #0003);
+  padding: 18px;
+}
+
+.image-bg[data-v-17b53135] {
+  background-image: var(--vp-home-hero-image-background-image);
+  width: 192px;
+  height: 192px;
+  filter: var(--vp-home-hero-image-filter);
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.VPHero .name {
+  background: linear-gradient(120deg, #007bff 0%, #0056b3 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.VPHero .tagline {
+  color: var(--vp-c-text-2);
+  font-size: 1.25rem;
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* 特性卡片样式 */
+.feature-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+  margin: 32px 0;
+}
+
+.feature-card {
+  background: var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 12px;
+  padding: 24px;
+  transition: all 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0, 123, 255, 0.12);
+  border-color: var(--vp-c-brand-1);
+}
+
+.feature-card .icon {
+  font-size: 2.5rem;
+  margin-bottom: 16px;
+  display: block;
+}
+
+.feature-card h3 {
+  color: var(--vp-c-brand-1);
+  font-size: 1.25rem;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+.feature-card p {
+  color: var(--vp-c-text-2);
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* 案例卡片样式 */
+.case-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 28px;
+  margin: 32px 0;
+}
+
+.case-card {
+  background: var(--vp-c-bg);
+  border: 2px solid var(--vp-c-divider);
+  border-radius: 16px;
+  padding: 28px;
+  transition: all 0.3s ease;
+}
+
+.case-card:hover {
+  border-color: var(--vp-c-brand-1);
+  box-shadow: 0 8px 20px rgba(0, 123, 255, 0.15);
+}
+
+.case-card .industry {
+  display: inline-block;
+  background: var(--vp-c-brand-soft);
+  color: var(--vp-c-brand-1);
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.case-card h3 {
+  color: var(--vp-c-text-1);
+  font-size: 1.35rem;
+  margin-bottom: 16px;
+  font-weight: 600;
+}
+
+.case-card .section {
+  margin-bottom: 16px;
+}
+
+.case-card .section h4 {
+  color: var(--vp-c-brand-2);
+  font-size: 1rem;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.case-card .section p {
+  color: var(--vp-c-text-2);
+  line-height: 1.7;
+  margin: 0;
+}
+
+/* 联系表单样式 */
+.contact-form {
+  max-width: 600px;
+  margin: 32px auto;
+  background: var(--vp-c-bg-soft);
+  padding: 32px;
+  border-radius: 16px;
+  border: 1px solid var(--vp-c-divider);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  color: var(--vp-c-text-1);
+  font-weight: 600;
+  margin-bottom: 8px;
+  font-size: 0.95rem;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 12px 16px;
+  border: 2px solid var(--vp-c-divider);
+  border-radius: 8px;
+  font-size: 1rem;
+  background: var(--vp-c-bg);
+  color: var(--vp-c-text-1);
+  transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--vp-c-brand-1);
+}
+
+.form-group textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 14px 24px;
+  background: var(--vp-c-brand-1);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.05rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.submit-btn:hover {
+  background: var(--vp-c-brand-2);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 123, 255, 0.3);
+}
+
+.submit-btn:active {
+  transform: translateY(0);
+}
+
+/* 图标样式 */
+.icon-wrapper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  background: var(--vp-c-brand-soft);
+  border-radius: 12px;
+  margin-bottom: 16px;
+}
+
+.icon-wrapper .icon {
+  font-size: 2rem;
+  margin: 0;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+
+  .feature-cards,
+  .case-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .VPHero {
+    padding-top: 48px !important;
+    padding-bottom: 48px !important;
+  }
+
+  .contact-form {
+    padding: 24px;
+    margin: 24px 16px;
+  }
+}
+
+/* 流程图容器样式 */
+.mermaid-container {
+  background: var(--vp-c-bg-soft);
+  padding: 24px;
+  border-radius: 12px;
+  margin: 24px 0;
+  overflow-x: auto;
+}
+
+/* 列表增强 */
+.vp-doc ul li {
+  margin: 8px 0;
+}
+
+.vp-doc ul li strong {
+  color: var(--vp-c-brand-1);
+}
+
+/* 表格样式 */
+.vp-doc table {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.vp-doc th {
+  background: var(--vp-c-brand-soft);
+  color: var(--vp-c-brand-1);
+  font-weight: 600;
+}
+
+/* 提示框样式 */
+.vp-doc .tip {
+  border-left: 4px solid var(--vp-c-brand-1);
+}
+
+/* 徽章样式 */
+.badge {
+  display: inline-block;
+  padding: 2px 8px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  border-radius: 4px;
+  background: var(--vp-c-brand-soft);
+  color: var(--vp-c-brand-1);
+  margin-left: 8px;
+}
+
+/* 语言切换器样式 */
+.language-switcher {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  padding: 8px;
+}
+
+.language-switcher button {
+  padding: 6px 12px;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 6px;
+  background: var(--vp-c-bg);
+  color: var(--vp-c-text-2);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 0.9rem;
+}
+
+.language-switcher button:hover {
+  border-color: var(--vp-c-brand-1);
+  color: var(--vp-c-brand-1);
+}
+
+.language-switcher button.active {
+  background: var(--vp-c-brand-1);
+  color: white;
+  border-color: var(--vp-c-brand-1);
+}
