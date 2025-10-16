@@ -24,7 +24,7 @@ export default defineConfig({
                     },
                     {
                         text: '实施指南',
-                        link: '/zh/implementation/'
+                        link: '/zh/implementation/roadmap'
                     },
                     {
                         text: '成功案例',
@@ -56,8 +56,16 @@ export default defineConfig({
                             text: '实施指南',
                             items: [
                                 {
-                                    text: '实施指南',
-                                    link: '/zh/implementation/'
+                                    text: '实施路线图',
+                                    link: '/zh/implementation/roadmap'
+                                },
+                                {
+                                    text: '成功要素',
+                                    link: '/zh/implementation/success-factors'
+                                },
+                                {
+                                    text: '实施检查清单',
+                                    link: '/zh/implementation/checklist'
                                 }
                             ]
                         }
@@ -158,7 +166,7 @@ export default defineConfig({
                     },
                     {
                         text: 'Implementation Guide',
-                        link: '/en/implementation/'
+                        link: '/en/implementation/roadmap'
                     },
                     { text: 'Success Stories', link: '/en/cases/' }
                 ],
@@ -187,8 +195,16 @@ export default defineConfig({
                             text: 'Implementation Guide',
                             items: [
                                 {
-                                    text: 'Implementation Guide',
-                                    link: '/en/implementation/'
+                                    text: 'Roadmap',
+                                    link: '/en/implementation/roadmap'
+                                },
+                                {
+                                    text: 'Success Factors',
+                                    link: '/en/implementation/success-factors'
+                                },
+                                {
+                                    text: 'Checklist',
+                                    link: '/en/implementation/checklist'
                                 }
                             ]
                         }
