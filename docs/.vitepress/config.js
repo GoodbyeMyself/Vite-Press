@@ -14,7 +14,7 @@ export default defineConfig({
             link: '/zh/',
             themeConfig: {
                 logo: '/logo.svg',
-                siteTitle: '数据治理',
+                siteTitle: 'SDC Govern',
 
                 // 导航栏
                 nav: [
@@ -28,7 +28,7 @@ export default defineConfig({
                     },
                     {
                         text: '成功案例',
-                        link: '/zh/cases/'
+                        link: '/zh/cases/bank'
                     }
                 ],
 
@@ -168,7 +168,7 @@ export default defineConfig({
                         text: 'Implementation Guide',
                         link: '/en/implementation/roadmap'
                     },
-                    { text: 'Success Stories', link: '/en/cases/' }
+                    { text: 'Success Stories', link: '/en/cases/bank' }
                 ],
 
                 // Sidebar - dynamically display based on path
