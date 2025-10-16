@@ -267,7 +267,7 @@ Different industries and regions have different data governance-related regulati
 Now that you understand the basic concepts and core principles of data governance, you can:
 
 -   📊 [Learn about the business benefits of data governance](/en/what-is-data-governance/benefits)
--   🚀 [Check the implementation guide to start data governance](/en/what-is-data-governance/implementation)
+-   🚀 [Check the implementation guide to start data governance](/en/implementation)
 
 ---
 

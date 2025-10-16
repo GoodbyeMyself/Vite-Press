@@ -42,7 +42,7 @@ features:
     - icon: 🚀
       title: Accelerate Transformation
       details: Lay a solid data foundation for AI, big data, cloud computing innovations, driving enterprise innovation.
-      link: /en/what-is-data-governance/implementation
+      link: /en/implementation
 ---
 
 <style scoped>
@@ -176,7 +176,7 @@ We provide end-to-end data governance solutions covering:
     Let us help you build an efficient, secure, and compliant data management system
   </p>
   <div class="cta-buttons">
-    <a href="/en/what-is-data-governance/implementation" class="cta-button">Implementation Guide</a>
+    <a href="/en/implementation" class="cta-button">Implementation Guide</a>
     <a href="/en/contact" class="cta-button secondary">Contact Us</a>
   </div>
 </div>

@@ -266,8 +266,8 @@ COBIT（Control Objectives for Information and Related Technologies）提供了 
 
 现在您已经了解了数据治理的基本概念和核心原则,接下来可以:
 
--   📊 [了解数据治理的业务益处](/what-is-data-governance/benefits)
--   🚀 [查看实施指南,开始实施数据治理](/what-is-data-governance/implementation)
+-   📊 [了解数据治理的业务益处](/zh/what-is-data-governance/benefits)
+-   🚀 [查看实施指南,开始实施数据治理](/zh/implementation)
 
 ---
 

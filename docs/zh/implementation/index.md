@@ -854,9 +854,9 @@ Level 1: 初始
 
 ## 下一步
 
--   💼 [查看成功案例,学习实战经验](/cases)
--   💬 [联系我们,获取实施支持](/contact)
--   📖 [返回概述,复习核心概念](/what-is-data-governance)
+-   💼 [查看成功案例,学习实战经验](/zh/cases)
+-   💬 [联系我们,获取实施支持](/zh/contact)
+-   📖 [返回概述,复习核心概念](/zh/what-is-data-governance)
 
 ---
 

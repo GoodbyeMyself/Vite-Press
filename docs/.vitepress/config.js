@@ -22,7 +22,14 @@ export default defineConfig({
                         text: '数据治理概述',
                         link: '/zh/what-is-data-governance/'
                     },
-                    { text: '成功案例', link: '/zh/cases/' }
+                    {
+                        text: '实施指南',
+                        link: '/zh/implementation/'
+                    },
+                    {
+                        text: '成功案例',
+                        link: '/zh/cases/'
+                    }
                 ],
 
                 // 侧边栏 - 根据路径动态显示
@@ -39,10 +46,18 @@ export default defineConfig({
                                 {
                                     text: '业务益处',
                                     link: '/zh/what-is-data-governance/benefits'
-                                },
+                                }
+                            ]
+                        }
+                    ],
+                    // 实施指南页面的侧边栏
+                    '/zh/implementation/': [
+                        {
+                            text: '实施指南',
+                            items: [
                                 {
                                     text: '实施指南',
-                                    link: '/zh/what-is-data-governance/implementation'
+                                    link: '/zh/implementation/'
                                 }
                             ]
                         }
@@ -141,6 +156,10 @@ export default defineConfig({
                         text: 'Data Governance Overview',
                         link: '/en/what-is-data-governance/'
                     },
+                    {
+                        text: 'Implementation Guide',
+                        link: '/en/implementation/'
+                    },
                     { text: 'Success Stories', link: '/en/cases/' }
                 ],
 
@@ -158,10 +177,18 @@ export default defineConfig({
                                 {
                                     text: 'Business Benefits',
                                     link: '/en/what-is-data-governance/benefits'
-                                },
+                                }
+                            ]
+                        }
+                    ],
+                    // Sidebar for implementation guide pages
+                    '/en/implementation/': [
+                        {
+                            text: 'Implementation Guide',
+                            items: [
                                 {
                                     text: 'Implementation Guide',
-                                    link: '/en/what-is-data-governance/implementation'
+                                    link: '/en/implementation/'
                                 }
                             ]
                         }

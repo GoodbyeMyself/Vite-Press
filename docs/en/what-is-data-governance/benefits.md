@@ -435,7 +435,7 @@ The return on investment period for data governance is typically **12-18 months*
 
 ## Next Steps
 
--   🚀 [Check the implementation guide to start your data governance journey](/en/what-is-data-governance/implementation)
+-   🚀 [Check the implementation guide to start your data governance journey](/en/implementation)
 -   💼 [Learn from success stories and best practices](/en/cases/)
 -   💬 [Contact us for personalized advice](/en/contact)
 

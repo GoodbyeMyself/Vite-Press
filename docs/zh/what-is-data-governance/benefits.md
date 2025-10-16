@@ -435,9 +435,9 @@ graph LR
 
 ## 下一步
 
--   🚀 [查看实施指南,开始数据治理之旅](/what-is-data-governance/implementation)
--   💼 [学习成功案例,了解最佳实践](/cases)
--   💬 [联系我们,获取个性化建议](/contact)
+-   🚀 [查看实施指南,开始数据治理之旅](/zh/implementation)
+-   💼 [学习成功案例,了解最佳实践](/zh/cases)
+-   💬 [联系我们,获取个性化建议](/zh/contact)
 
 ---
 

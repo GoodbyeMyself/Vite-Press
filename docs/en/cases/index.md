@@ -84,7 +84,7 @@ If your enterprise also faces similar data challenges, please contact us. We wil
     Let us help you build an efficient, secure, and compliant data management system
   </p>
   <div class="cta-buttons">
-    <a href="/en/what-is-data-governance/implementation" class="cta-button">View Implementation Guide</a>
+    <a href="/en/implementation" class="cta-button">View Implementation Guide</a>
     <a href="/en/contact" class="cta-button secondary">Contact Us</a>
   </div>
 </div>

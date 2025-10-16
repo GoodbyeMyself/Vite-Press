@@ -42,7 +42,7 @@ features:
     - icon: 🚀
       title: 加速数字化转型
       details: 为AI、大数据、云计算等创新应用奠定坚实的数据基础，助力企业创新发展。
-      link: /zh/what-is-data-governance/implementation
+      link: /zh/implementation
 ---
 
 <style scoped>
@@ -176,7 +176,7 @@ features:
     让我们帮助您构建高效、安全、合规的数据管理体系
   </p>
   <div class="cta-buttons">
-    <a href="/zh/what-is-data-governance/implementation" class="cta-button">查看实施指南</a>
+    <a href="/zh/implementation" class="cta-button">查看实施指南</a>
     <a href="/zh/contact" class="cta-button secondary">联系我们</a>
   </div>
 </div>
