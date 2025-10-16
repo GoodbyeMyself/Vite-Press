@@ -1,11 +1,8 @@
 # 数据治理解决方案网站
 
-[![Deploy VitePress](https://github.com/your-org/Vite-Press/workflows/Deploy%20VitePress%20site%20to%20Pages/badge.svg)](https://github.com/your-org/Vite-Press/actions)
 [![VitePress](https://img.shields.io/badge/VitePress-1.5.0-brightgreen.svg)](https://vitepress.dev/)
 [![Vue](https://img.shields.io/badge/Vue-3.5.0-brightgreen.svg)](https://vuejs.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-中文 | [English](./README.md)
 
 基于 VitePress 构建的数据治理企业解决方案展示网站，提供专业、简洁的数据治理知识和服务介绍。
 
