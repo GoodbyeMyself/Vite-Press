@@ -27,10 +27,6 @@ export default defineConfig({
                         link: '/zh/implementation/roadmap'
                     },
                     {
-                        text: '安装手册',
-                        link: '/zh/installation/'
-                    },
-                    {
                         text: '成功案例',
                         link: '/zh/cases/bank'
                     }
@@ -70,18 +66,6 @@ export default defineConfig({
                                 {
                                     text: '实施检查清单',
                                     link: '/zh/implementation/checklist'
-                                }
-                            ]
-                        }
-                    ],
-                    // 安装手册页面的侧边栏
-                    '/zh/installation/': [
-                        {
-                            text: '安装手册',
-                            items: [
-                                {
-                                    text: '产品安装指南',
-                                    link: '/zh/installation/'
                                 }
                             ]
                         }
@@ -184,10 +168,6 @@ export default defineConfig({
                         text: 'Implementation Guide',
                         link: '/en/implementation/roadmap'
                     },
-                    {
-                        text: 'Installation Manual',
-                        link: '/en/installation/'
-                    },
                     { text: 'Success Stories', link: '/en/cases/bank' }
                 ],
 
@@ -225,18 +205,6 @@ export default defineConfig({
                                 {
                                     text: 'Checklist',
                                     link: '/en/implementation/checklist'
-                                }
-                            ]
-                        }
-                    ],
-                    // Sidebar for installation manual pages
-                    '/en/installation/': [
-                        {
-                            text: 'Installation Manual',
-                            items: [
-                                {
-                                    text: 'Installation Guide',
-                                    link: '/en/installation/'
                                 }
                             ]
                         }
